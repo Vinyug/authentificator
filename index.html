@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Système d'identification</title>
+        <meta name="description" content="Système d'identification à une API">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    
+    <body class="wrapper">
+        <header>
+            <h1>Authentification</h1>
+        </header>
+
+        <section class="messageContainer">
+            <h2 id="message"></h2>
+        </section>
+
+        <div class="identifier">
+            <form action="" method="" id="log">
+                <label for="login">Identifiant</label>
+                <input type="email" name="login" id="login" required placeholder="Saisissez votre idenfiant" maxlength="80">
+                <label for="password">Mot de passe</label>
+                <input type="password" name="password" id="password" required readonly placeholder="Composer votre mot de passe" maxlength="6">
+                <table>
+                    <tr>
+                        <td class="case"></td>
+                        <td class="case"></td>
+                        <td class="case"></td>
+                        <td class="case"></td>
+                        <td class="case"></td>
+                        <td class="case"></td>
+                        <td class="case"></td>
+                        <td class="case"></td>
+                        <td class="case"></td>
+                        <td class="case"></td>
+                        <td class="case"></td>
+                        <td class="case"></td>
+                        <td class="case"></td>
+                        <td class="case"></td>
+                        <td class="case"></td>
+                        <td class="case"></td>
+                    </tr>
+                </table>
+                <div>
+                    <input type="button" id="submit" value="Valider">
+                    <button id="clear">Effacer</button>
+                </div>
+            </form>
+
+            <div class="help">
+                <div class="linkHelp">
+                    <a href="#"><img src="assets/images/circle-question-regular.svg" alt="icon question"><span>Aide à la connexion</span></a>
+                    <a href="#"><img src="assets/images/arrow-right-from-bracket-solid.svg" alt="icon login"><span>Identifiant / Mot de passe perdu</span></a>
+                    <a href="#"><img src="assets/images/lock-solid.svg" alt="icon security"><span>Sécurité Identifiant / Mot de passe</span></a>
+                </div>
+                <p><strong>Important :</strong> votre vigilance est primordiale pour assurer la sécurité de votre compte.</p>
+            </div>
+        </div>
+
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
