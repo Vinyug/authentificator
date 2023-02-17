@@ -62,7 +62,7 @@ function valueInputPassword(e) {
 
 // FETCH
 function validate() {
-    let url = `https://www.ericfreelance.fr/api/check_user.php`;
+    let url = `https://www.ericfree.net/formation/api/check_user.php`;
     let formData = new FormData(log);
     let init = {
         method: 'post',
